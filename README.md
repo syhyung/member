@@ -1,1 +1,40 @@
-# member
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Generator" content="EditPlus">
+        <meta name="Author" content="">
+        <meta name="Ketwords" content="">
+        <meta name="Description" content="">
+        <title>Document</title>
+    </head>    
+        <body>
+            <table>
+                <tr>
+                    <h3>기본정보 입력</h3>
+                </tr>
+                    <td width=100>아이디</td><td><input type="text" size=15></td><td><input type="button" value="중복확인"></td>
+                </tr>
+                    <td width=100>비밀번호</td><td><input type="password" size=15></td>
+                </tr>
+                    <td width=100>비밀번호 확인</td><td><input type="password" size=15></td>    
+            </table>
+            <table>
+                <tr>
+                    <h3>개인정보 입력</h3>
+                </tr>
+                    <td width=100>이름</td><td><input type="text" size=15></td>
+                </tr>
+                    <td width=100>이메일</td><td><input type="password" size=15></td><td><input type="button" value="이메일 인증"></td>
+                </tr>
+                <td>
+                    <td><input type="checkbox" name="email_agree"> 이메일 수신 동의</td>
+                </td>
+                </tr>
+                    <td width=100>휴대전화번호</td><td><input type="password" size=15></td>
+                </tr>
+                <td>
+                    <td><input type="checkbox" name="email_agree">SMS 수신 동의</td>
+                </td>
+            </table>
+        </body>
+</html>
